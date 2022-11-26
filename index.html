@@ -1,76 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume Shataev A. S.</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    
-</head>
-<body class="body">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>
-            po1sonne CV
-        </h1>
+      <h1 class="name">po1sonne CV</h1>
     </header>
     <main>
-        <nav>
-        <h2>
-            Skills
-        </h2>
-        <ul>
+      <nav class="container">
+        <div class="child">
+          <h2>Skills</h2>
+          <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JS</li>
             <li>Git</li>
-        </ul>
-        <h2>
-            Education
-        </h2>
-        <ul>
+          </ul>
+        </div>
+        <div class="child">
+          <h2>Education</h2>
+          <ul>
             <li>Independent study</li>
             <li>Rs-school</li>
             <li>Hexlet</li>
-            
-        </ul>
-        <h2>
-            Language
-        </h2>
-        <ul>
+          </ul>
+        </div>
+        <div class="child">
+          <h2>Language</h2>
+          <ul>
             <li>Russian - native</li>
             <li>English - B1</li>
-        </ul>
-        <h2>
-            Projects
-        </h2>
-        <ul>
+          </ul>
+        </div>
+        <div class="child">
+          <h2>Projects</h2>
+          <ul>
             <li>none</li>
-        </ul>
-        <h2>
-            Hobby
-        </h2>
-        <ul>
+          </ul>
+        </div>
+        <div class="child">
+          <h2>Hobby</h2>
+          <ul>
             <li>Programming</li>
             <li>Learning new</li>
             <li>PC games</li>
             <li>Board games</li>
             <li>Formula 1</li>
             <li>Music</li>
-        </ul>
-        </nav>
+          </ul>
+        </div>
+        <div class="child">
+          <h2>Code example</h2>
+          <code>
+            .container { display: grid; grid-template-columns: repeat(6, 200px);
+            gap: 5px; margin: 0 auto; max-width: 1000px; }
+          </code>
+        </div>
+      </nav>
     </main>
-    <footer>
-        <h2>
-            Links
-        </h2>
-        <nav>
-            <ul>
-                <li><a href="https://github.com/po1sonne">GitHub</a></li>
-                <li><a href="https://twitter.com/po1sonne">Twitter</a></li>
-                <li><a href="https://www.instagram.com/po1sonne/">Instagram</a></li>
-            </ul>
-        </nav>
+    <footer class="links_container">
+      <h2>Links</h2>
+      <nav class="links_container_child">
+        <ul>
+          <li><a href="https://github.com/po1sonne">GitHub</a></li>
+          <li><a href="https://twitter.com/po1sonne">Twitter</a></li>
+          <li><a href="https://www.instagram.com/po1sonne/">Instagram</a></li>
+        </ul>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
