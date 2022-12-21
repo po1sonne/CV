@@ -18,14 +18,13 @@ li {
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 30px;
   margin: 0 auto;
   max-width: 1000px;
 }
 
 .child {
   min-height: 400px;
-  min-width: 400px;
   background-color: rgb(255, 255, 255);
   border-style: dashed;
   border-color: rgb(148, 50, 140);
@@ -34,14 +33,14 @@ li {
 .links_container {
   display: grid;
   grid-template-rows: (1, 1fr);
-  gap: 10px;
+  gap: 30px;
   margin: 0 auto;
+  margin-top: 5%;
   max-width: 1000px;
 }
 
 .links_container_child {
   min-height: 100px;
-  min-width: 400px;
   background-color: rgb(255, 255, 255);
   border-style: dashed;
   border-color: rgb(148, 50, 140);
