@@ -1,9 +1,6 @@
 * {
   font-family: sans-serif, verdana;
-}
-
-.name {
-  text-align: center;
+  box-sizing: border-box;
 }
 
 h2,
@@ -17,31 +14,41 @@ li {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  margin: 0 auto;
-  max-width: 1000px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 20px;
 }
 
 .child {
-  min-height: 400px;
-  background-color: rgb(255, 255, 255);
-  border-style: dashed;
-  border-color: rgb(148, 50, 140);
+  border-radius: 12px;
 }
 
-.links_container {
-  display: grid;
-  grid-template-rows: (1, 1fr);
-  gap: 30px;
-  margin: 0 auto;
-  margin-top: 5%;
-  max-width: 1000px;
+.skills {
+  grid-column: 2/8;
+  grid-row: 2/5;
+  background-color: rgb(144, 77, 206);
 }
 
-.links_container_child {
-  min-height: 100px;
-  background-color: rgb(255, 255, 255);
-  border-style: dashed;
-  border-color: rgb(148, 50, 140);
+.bio {
+  grid-column: 8/12;
+  grid-row: 2/5;
+  background-color: rgb(206, 171, 127)
+}
+
+.hobby {
+  grid-column: 2/7;
+  grid-row: 5/7;
+  background-color: rgb(52, 155, 132);
+}
+
+.projects {
+  grid-column: 7/12;
+  grid-row: 5/7;
+  background-color:rgb(182, 115, 140)
+}
+
+.links {
+  grid-column: 2/12;
+  grid-row: 7/8;
+  background-color:rgb(99, 136, 160)
 }
