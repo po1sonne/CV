@@ -1,18 +1,4 @@
-* {
-  font-family: sans-serif, verdana;
-  box-sizing: border-box;
-}
-
-h2,
-ul {
-  padding: 0;
-}
-
-li {
-  list-style-type: none;
-}
-
-.container {
+.container { 
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -21,6 +7,7 @@ li {
 
 .child {
   border-radius: 12px;
+  color: rgb(247, 247, 247);
 }
 
 .skills {
@@ -32,7 +19,7 @@ li {
 .bio {
   grid-column: 8/12;
   grid-row: 2/5;
-  background-color: rgb(206, 171, 127)
+  background-color: rgb(194, 158, 113);
 }
 
 .hobby {
@@ -44,11 +31,11 @@ li {
 .projects {
   grid-column: 7/12;
   grid-row: 5/7;
-  background-color:rgb(182, 115, 140)
+  background-color: rgb(182, 115, 140);
 }
 
 .links {
   grid-column: 2/12;
   grid-row: 7/8;
-  background-color:rgb(99, 136, 160)
+  background-color: rgb(99, 136, 160);
 }
